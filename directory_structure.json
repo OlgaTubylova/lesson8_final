@@ -1,0 +1,44 @@
+[
+    {
+        "name": "file1.txt",
+        "path": "test_directory/file1.txt",
+        "parent": "",
+        "type": "file",
+        "size_bytes": 12
+    },
+    {
+        "name": "file3.txt",
+        "path": "test_directory/subdir2/file3.txt",
+        "parent": "test_directory",
+        "type": "file",
+        "size_bytes": 20
+    },
+    {
+        "name": "file2.txt",
+        "path": "test_directory/subdir1/file2.txt",
+        "parent": "test_directory",
+        "type": "file",
+        "size_bytes": 14
+    },
+    {
+        "name": "subdir2",
+        "path": "test_directory/subdir2",
+        "parent": "",
+        "type": "directory",
+        "size_bytes": 20
+    },
+    {
+        "name": "subdir1",
+        "path": "test_directory/subdir1",
+        "parent": "",
+        "type": "directory",
+        "size_bytes": 14
+    },
+    {
+        "name": "test_directory",
+        "path": "test_directory",
+        "parent": ".",
+        "type": "directory",
+        "size_bytes": 12
+    }
+]
